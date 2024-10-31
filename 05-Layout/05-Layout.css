@@ -1,0 +1,31 @@
+.groupid {
+    margin: 20px;
+    font-size: 42px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.members {
+    margin-left: 20px;
+    font-size: 32px;
+}
+
+.boxes {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    min-height: 500px;
+}
+
+.links {
+    display: flex;
+    flex: auto;
+    background-color: #aaa;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
