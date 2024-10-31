@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .text {
+    font-weight: bold;
+  }
+  
+  .background {
+    background-color: lightgray;
+  }
+  
+  #logo {
+    margin: 8px 0;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    font-size: 20px;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  main nav {
+    padding-left: 8px;
+    width: 20%;
+    min-height: 400px;
+  }
+  
+  main #right {
+    width: 80%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #right header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+  }
+  
+  #right section {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 0;
+    font-size: 30px;
+  }
+  
+  footer {
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+  }
